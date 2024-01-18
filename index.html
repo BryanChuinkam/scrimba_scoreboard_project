@@ -15,24 +15,25 @@
 
     <section class="scorecard">
       <h1>HOME</h1>
-      <p>0</p>
+      <p id="home_score-p">0</p>
       <div class="scorecard-btns">
-        <button class="addScores-btn">+1</button>
-        <button class="addScores-btn">+2</button>
-        <button class="addScores-btn">+3</button>
+        <button class="addScores-btn" id="home-1" onclick="increaseScore(this)">+1</button>
+        <button class="addScores-btn" id="home-2" onclick="increaseScore(this)">+2</button>
+        <button class="addScores-btn" id="home-3" onclick="increaseScore(this)">+3</button>
       </div>
+      
     </section>
 
     <section class="scorecard">
       <h1>GUEST</h1>
-      <p>0</p>
+      <p id="guest_score-p">0</p>
       <div class="scorecard-btns">
-        <button class="addScores-btn">+1</button>
-        <button class="addScores-btn">+2</button>
-        <button class="addScores-btn">+3</button>
+        <button class="addScores-btn" id="guest-1" onclick="increaseScore(this)">+1</button>
+        <button class="addScores-btn" id="guest-2" onclick="increaseScore(this)">+2</button>
+        <button class="addScores-btn" id="guest-3" onclick="increaseScore(this)">+3</button>
       </div>
     </section>
-
+    <script src="index.js"></script>
   </main>
 </body>
 </html>
